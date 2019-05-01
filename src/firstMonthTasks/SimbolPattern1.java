@@ -1,4 +1,4 @@
-package SimbolPattern;
+package firstMonthTasks;
 
 import java.util.Scanner;
 
