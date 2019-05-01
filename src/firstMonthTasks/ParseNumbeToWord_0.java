@@ -50,6 +50,7 @@ public class ParseNumbeToWord_0 {
 
         int middleDigit = temp % 10;
         temp = temp / 10;
+
         String middleDigitString = null;
         if (middleDigit == 0){
             middleDigitString = null;
@@ -91,6 +92,10 @@ public class ParseNumbeToWord_0 {
             middleDigitString = "nineteen";
         }
         int firstDigit = temp;
+        if (firstDigit > 9){
+            System.out.println("Please enter number with three digit!");
+            return;
+        }
         String firstDigitString = null;
         if (firstDigit==0){
             firstDigitString = null;
